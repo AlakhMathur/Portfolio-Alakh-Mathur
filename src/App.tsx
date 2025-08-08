@@ -7,6 +7,7 @@ import Blog from './components/Blog';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
 import Skills from './components/Skills';
+import CustomCursor from './components/CustomCursor';
 import useActiveSection from './hooks/useActiveSection';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CustomCursor />
       <Navigation activeSection={activeSection} />
       <Hero />
       <Experience />

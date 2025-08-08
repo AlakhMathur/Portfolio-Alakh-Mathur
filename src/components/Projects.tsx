@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
         "Interactive topic maps for progress tracking",
         "Instructor dashboard with override features and analytics"
       ],
-      githubUrl: "https://github.com/AlakhMathur/preassess",
+      githubUrl: "https://github.com/AlakhMathur/Smart-Dependency-Based-Learning-Platform",
       liveUrl: "https://pre-assess.vercel.app/",
       icon: "🎯"
     },
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
         "Gamification elements for sustainable shopping",
         "AI recommendation chatbot for greener alternatives"
       ],
-      githubUrl: "https://github.com/AlakhMathur/sustainable-shopping",
+      githubUrl: "https://github.com/AlakhMathur/HackOn-Sustainable_Shopping_Experience",
       specialNote: "Semi-Finalist, Amazon HackOn 2025",
       icon: "🌱"
     },

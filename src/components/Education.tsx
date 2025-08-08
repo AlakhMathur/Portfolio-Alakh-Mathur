@@ -136,6 +136,37 @@ const Education: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* JEE Achievements Section */}
+        <div className="mt-8 bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-xl border border-yellow-100">
+          <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
+            🏆 JEE Achievements
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="text-center p-6 bg-white rounded-lg shadow-md border border-yellow-200">
+              <div className="text-3xl font-bold text-yellow-600 mb-2">15,162</div>
+              <div className="text-gray-700 font-medium">JEE Mains Rank</div>
+              <div className="text-sm text-gray-500">All India Rank</div>
+              <div className="mt-2 text-xs text-yellow-700 bg-yellow-100 px-2 py-1 rounded-full">
+                Top 1% of Candidates
+              </div>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-md border border-orange-200">
+              <div className="text-3xl font-bold text-orange-600 mb-2">18,655</div>
+              <div className="text-gray-700 font-medium">JEE Advanced Rank</div>
+              <div className="text-sm text-gray-500">All India Rank</div>
+              <div className="mt-2 text-xs text-orange-700 bg-orange-100 px-2 py-1 rounded-full">
+                IIT Qualifier
+              </div>
+            </div>
+          </div>
+          <div className="mt-6 text-center">
+            <p className="text-gray-600 text-sm">
+              These achievements demonstrate strong foundation in Mathematics, Physics, and Chemistry, 
+              essential for Computer Science and Engineering.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

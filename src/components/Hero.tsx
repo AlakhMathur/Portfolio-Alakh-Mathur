@@ -158,7 +158,7 @@ const Hero: React.FC = () => {
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-              <div className="text-3xl font-bold text-green-600 mb-2">15+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">10+</div>
               <div className="text-gray-600">Projects</div>
               <div className="text-sm text-gray-500">Completed</div>
             </div>
